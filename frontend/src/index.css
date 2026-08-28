@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg: #FAFAF7;
-  --bg2: #F4F2EC;
-  --surface: #FFFFFF;
-  --surface2: #F8F6F0;
-  --border: rgba(160,130,60,0.15);
-  --border-strong: rgba(160,130,60,0.35);
-  --gold: #B8973A;
-  --gold-dark: #8B6E25;
-  --gold-light: #D4AF5A;
-  --gold-bg: rgba(184,151,58,0.08);
-  --gold-bg-strong: rgba(184,151,58,0.15);
-  --text: #1A1A14;
-  --text-soft: #4A4535;
-  --text-muted: #8A8070;
-  --shadow: rgba(100,80,20,0.08);
-  --shadow-md: rgba(100,80,20,0.14);
-  --shadow-lg: rgba(100,80,20,0.2);
-  --error: #C0392B;
-  --error-bg: rgba(192,57,43,0.08);
+  --bg: var(--bg-page);
+  --bg2: var(--bg-surface-3);
+  --surface: var(--bg-surface);
+  --surface2: var(--bg-surface-2);
+  --border: var(--theme-border);
+  --border-strong: var(--theme-border-strong);
+  --gold: var(--theme-gold);
+  --gold-dark: var(--theme-gold-dark);
+  --gold-light: var(--theme-gold-light);
+  --gold-bg: var(--gold-muted);
+  --gold-bg-strong: var(--gold-muted);
+  --text: var(--text-primary);
+  --text-soft: var(--text-secondary);
+  --text-muted: var(--theme-text-muted);
+  --shadow: var(--theme-shadow-sm);
+  --shadow-md: var(--theme-shadow-md);
+  --shadow-lg: var(--theme-shadow-lg);
+  --error: var(--theme-error);
+  --error-bg: var(--theme-error-bg);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
